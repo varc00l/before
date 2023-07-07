@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .flex {
+    display: flex;
+    flex-direction: row;
+} 
+.card1::before {
+    content: "";
+    position: absolute;
+    background-color: #F5F4FA;
+    background-image: url(/img/antenna\ 1.png);
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 70px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 4px;
+}
+.card2::before {
+    content: "";
+    position: absolute;
+    background-color: #F5F4FA;
+    background-image: url(/img/astronaut\ 1.png);
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 70px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 97px;
+    right: 0;
+    border-radius: 4px;
+}
+.card3::before {
+    content: "";
+    position: absolute;
+    background-image: url(/img/clock\ 1.png);
+    background-color: #F5F4FA;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 70px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 200px;
+    border-radius: 4px;
+}
+.card4::before {
+    content: "";
+    position: absolute; 
+    background-image: url(/img/diagram\ 1.png);
+    background-color: #F5F4FA;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 70px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 327px;
+    border-radius: 4px;
+}
